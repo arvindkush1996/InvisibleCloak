@@ -1,22 +1,14 @@
 # InvisibleCloak
 
-Being a Harry Potter fan, we all have cherished the mesmerising magical fantasy world.
-
-Minimum Requirements
-
-  -Python 3
-  
-  -Numpy
-  
-  -OpenCV
-  
-Running the Program : 
+Being a Harry Potter fan, we all have cherished the mesmerising magical fantasy world.Have you always wondered how life would be if you had the superpower of being invisible, here’s how you can experience one — obviously this is not possible in real life but can be achieved with few lines of code in OpenCV.
 
 
-1.Open Terminal and change to the 'Invisibility-Cloak' directory
+Algorithm: 
 
+1. Capture and store the background frame 
 
-2.Step away from the background and run python3 cloak.py
+2. Detect the red coloured cloth using colour detection and segmentation algorithm.
 
+3. Segment out the red coloured cloth by generating a mask. 
 
-3.When the webcam opens up put any reddish cloth in front of the cam and see the magic
+4. Generate the final augmented output to create a magical effect. 
