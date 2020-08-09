@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-
 import cv2
 import time
 import numpy as np
@@ -55,4 +48,3 @@ while (cap.isOpened()):
 cap.release()
 out.release()
 cv2.destroyAllWindows()
-
